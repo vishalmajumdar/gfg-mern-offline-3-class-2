@@ -136,6 +136,7 @@ footer {
   .mobile-menu {
     list-style: none;
     display: block;
+    cursor: pointer;
   }
 
   .products-gallery {
