@@ -50,6 +50,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0px 25px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .featured-products {
@@ -129,5 +130,18 @@ footer {
   .mobile-menu {
     list-style: none;
     display: block;
+  }
+}
+
+/* media queries for mobile */
+
+@media screen and (max-width: 768px) {
+  .banner h2 {
+    margin: 0px 25px;
+    text-align: center;
+    font-size: 38px;
+    max-width: 50%;
+    display: inline-block;
+    overflow: hidden;
   }
 }
