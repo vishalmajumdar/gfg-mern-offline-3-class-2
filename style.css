@@ -74,11 +74,12 @@ nav {
 .products-row {
   display: flex;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .product {
   width: 250px;
-  margin: 0px 10px;
+  margin: 10px 10px;
   padding-bottom: 15px;
   border: 1px solid bisque;
   background-color: rgba(253, 237, 216, 0.943);
@@ -131,6 +132,15 @@ footer {
     list-style: none;
     display: block;
   }
+
+  .products-gallery {
+    margin-bottom: 10px;
+  }
+
+  .products-row {
+    justify-content: center;
+    margin-bottom: 0px;
+  }
 }
 
 /* media queries for mobile */
@@ -138,6 +148,7 @@ footer {
 @media screen and (max-width: 768px) {
   .banner h2 {
     margin: 0px 25px;
+    padding: 10px 25px;
     text-align: center;
     font-size: 38px;
     max-width: 50%;
