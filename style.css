@@ -113,3 +113,21 @@ footer {
   text-align: center;
   padding: 10px 0px;
 }
+
+.mobile-menu {
+  list-style: none;
+  display: none;
+}
+
+/* media queries for mobile and tablet */
+
+@media screen and (max-width: 1023px) {
+  .main-menu-item {
+    display: none;
+  }
+
+  .mobile-menu {
+    list-style: none;
+    display: block;
+  }
+}
